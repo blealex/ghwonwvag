@@ -1,11 +1,11 @@
 {
-    "name": "TESS THOMPSON",
+    "name": "KEVIN HART",
     "description": "the bot",
     "logo": "https://graph.org/file/b7e8484f6395a180b6380.jpg",
     "stack": "container",
     "keywords": ["telegram", "auto-filter"],
-    "website": "https://github.com/Godstime5/jehwoehsgaj",
-    "repository": "https://github.com/Godstime5/jehwoehsgaj",
+    "website": "https://github.com/Godstime315/djkwmbie",
+    "repository": "https://github.com/Godstime315/djkwmbie",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
