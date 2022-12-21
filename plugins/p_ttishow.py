@@ -42,7 +42,7 @@ async def save_group(bot, message):
             ]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
-            text=f"<b>›› 𝚃𝙷𝙰𝙽𝙺𝚂 𝚃𝙾 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿.\n›› 𝙳𝙾𝙽'𝚃 𝙵𝙾𝚁𝙶𝙴𝚃 𝚃𝙾 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽.\n›› 𝙸𝚂 𝙰𝙽𝚈 𝙳𝙾𝚄𝙱𝚃𝚂 𝙰𝙱𝙾𝚄𝚃 𝚄𝚂𝙸𝙽𝙶 𝙼𝙴 𝙲𝙻𝙸𝙲𝙺 𝙱𝙴𝙻𝙾𝚆 𝙱𝚄𝚃𝚃𝙾𝙽..⚡⚡.</b>",
+            text=f"<b>›› 𝚃𝙷𝙰𝙽𝙺𝚂 F𝙾R 𝙰𝙳𝙳ING 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿.\n›› 𝙳𝙾𝙽'𝚃 𝙵𝙾𝚁𝙶𝙴𝚃 𝚃𝙾 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽.\n›› 𝙸𝚂 THERE 𝙰𝙽𝚈 𝙳𝙾𝚄𝙱𝚃𝚂 𝙰𝙱𝙾𝚄𝚃 𝚄𝚂𝙸𝙽𝙶 𝙼𝙴 𝙲𝙻𝙸𝙲𝙺 THE 𝙱𝙴𝙻𝙾𝚆 𝙱𝚄𝚃𝚃𝙾𝙽..⚡⚡.</b>",
             reply_markup=reply_markup)
     else:
         for u in message.new_chat_members:
@@ -73,7 +73,7 @@ async def leave_a_chat(bot, message):
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
             chat_id=chat,
-            text='<b>Hello Friends, \nMy admin has told me to leave from group so i go! If you wanna add me again contact my support group.</b>',
+            text='<b>Hello Friends, \nMy admin has told me to leave from group so I Am leaving! If you wanna add me again contact my support group.</b>',
             reply_markup=reply_markup,
         )
 
@@ -98,7 +98,7 @@ async def disable_chat(bot, message):
         return await message.reply('Give Me A Valid Chat ID')
     cha_t = await db.get_chat(int(chat_))
     if not cha_t:
-        return await message.reply("Chat Not Found In DB")
+        return await message.reply("Chat Not Found In my DB")
     if cha_t['is_disabled']:
         return await message.reply(f"This chat is already disabled:\nReason-<code> {cha_t['reason']} </code>")
     await db.disable_chat(int(chat_), reason)
@@ -111,7 +111,7 @@ async def disable_chat(bot, message):
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
             chat_id=chat_, 
-            text=f'<b>Hello Friends, \nMy admin has told me to leave from group so i go! If you wanna add me again contact my support group.</b> \nReason : <code>{reason}</code>',
+            text=f'<b>Hello Friends, \nMy admin has told me to leave from group so I Am leaving! If you wanna add me again contact my support group.</b> \nReason : <code>{reason}</code>',
             reply_markup=reply_markup)
         await bot.leave_chat(chat_)
     except Exception as e:
@@ -222,7 +222,7 @@ async def unban_a_user(bot, message):
     except PeerIdInvalid:
         return await message.reply("This is an invalid user, make sure ia have met him before.")
     except IndexError:
-        return await message.reply("Thismight be a channel, make sure its a user.")
+        return await message.reply("This might be a channel, make sure its a user.")
     except Exception as e:
         return await message.reply(f'Error - {e}')
     else:
