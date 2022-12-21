@@ -827,7 +827,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "pages":
         await query.answer("🤨 Curiosity is a little more, isn't it? 😁", show_alert=True)
     elif query.data == "start":                        
-        buttons =  [[
+        buttons = [[
             InlineKeyboardButton("⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚", url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton("🔍 𝚂𝚎𝚊𝚛𝚌𝚑", switch_inline_query_current_chat=''),
