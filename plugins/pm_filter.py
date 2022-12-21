@@ -831,7 +831,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚", url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton("🔍 𝚂𝚎𝚊𝚛𝚌𝚑", switch_inline_query_current_chat=''),
-            InlineKeyboardButton("🍿 UᎮDΛTΞS 🍿", url="https://t.me/Lordship_series")
+            InlineKeyboardButton("🍿 UᎮDΛTΞS 🍿", url="https://t.me/Lordshipmovies")
             ],[
             InlineKeyboardButton("♻️ HΞLᎮ ♻️", callback_data="help"),
             InlineKeyboardButton("💫 ΛBOUT 💫", callback_data="about")
