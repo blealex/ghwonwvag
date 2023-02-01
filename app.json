@@ -46,7 +46,7 @@
         },
         "CUSTOM_FILE_CAPTION": {
             "description": "A custom file caption for your files. formatable with , file_name, file_caption, file_size, Read Readme.md for better understanding.",
-            "value": "<code>{file_name}</code> \n\n➠ 𝗝𝗼𝗶𝗻 : <b>@Lordship_series</b>"
+            "value": "<code>{file_name}</code> \n\n➠ 𝗝𝗼𝗶𝗻 : <b>@JUVENILETIDES</b>"
             "required": false
         },
         "DATABASE_URI": {
