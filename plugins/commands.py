@@ -22,9 +22,9 @@ BATCH_FILES = {}
 async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[           
-            InlineKeyboardButton('⚡ UᎮDΛTΞS ⚡', url=f'https://t.me/Lordshipmovies')
+            InlineKeyboardButton('⚡ UᎮDΛTΞS ⚡', url=f'https://t.me/JUVENILETIDES')
             ],[
-            InlineKeyboardButton('🔞 ADULT BOT 🔞', url="https://t.me/Adultship")
+            InlineKeyboardButton('🔞 BACKUP CHANNEL 🔞', url="https://t.me/Moviewavetv")
             ]]
         await message.reply(START_MESSAGE.format(user=message.from_user.mention if message.from_user else message.chat.title, bot=temp.B_LINK), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)                    
         await asyncio.sleep(2) 
@@ -41,7 +41,7 @@ async def start(client, message):
             InlineKeyboardButton("⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚", url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton("🔍 𝚂𝚎𝚊𝚛𝚌𝚑", switch_inline_query_current_chat=''),
-            InlineKeyboardButton("🍿 UᎮDΛTΞS 🍿", url="https://t.me/Lordshipmovies")
+            InlineKeyboardButton("🍿 UᎮDΛTΞS 🍿", url="https://t.me/MOVIEWAVETV")
             ],[
             InlineKeyboardButton("♻️ HΞLᎮ ♻️", callback_data="help"),
             InlineKeyboardButton("💫 ΛBOUT 💫", callback_data="about")
@@ -91,7 +91,7 @@ async def start(client, message):
             InlineKeyboardButton("⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚", url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton("🔍 𝚂𝚎𝚊𝚛𝚌𝚑", switch_inline_query_current_chat=''),
-            InlineKeyboardButton("🍿 UᎮDΛTΞS 🍿", url="https://t.me/Lordshipmovies")
+            InlineKeyboardButton("🍿 UᎮDΛTΞS 🍿", url="https://t.me/MOVIEWAVETV")
             ],[
             InlineKeyboardButton("♻️ HΞLᎮ ♻️", callback_data="help"),
             InlineKeyboardButton("💫 ΛBOUT 💫", callback_data="about")
