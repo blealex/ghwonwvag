@@ -218,7 +218,7 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="🔞 CLICK HERE FOR OUR ADULT CHANNEL", url='https://t.me/+83dNsgyhMmI4OTNk')
+            InlineKeyboardButton(text="🔞 CLICK HERE FOR OUR ADULT CHANNEL", url='https://t.me/+0g3ZPk-Zw4UxOGI0')
         ]
     )
     
@@ -274,7 +274,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('The file you are looking for is not available on my Database or might not be released yet 💌\n\nFirst of all, Read the pinned message and follow the instructions and examples I gave there.\n\nif its still unavailable, then Use @mcrequestbot to request for it. please make sure you follow the request format there or my owner will skip your request. Thank youuu 🥰')
+            k = await query.message.edit('The file you are looking for is not available on my Database or might not be released yet 💌\n\nFirst of all, Read the pinned message and follow the instructions and examples I gave there.\n\nif its still unavailable, then Use @Series_Support to request for it. please make sure you follow the request format there or my owner will skip your request. Thank youuu 🥰')
             await asyncio.sleep(20)
             await k.delete()
 
@@ -294,7 +294,7 @@ async def pm_spoll_tester(bot, query):
         k = (movie, files, offset, total_results)
         await pm_AutoFilter(bot, query, k)
     else:
-        k = await query.message.edit('The file you are looking for is not available on my Database or might not be released yet 💌\n\nFirst of all, Read the pinned message and follow the instructions and examples I gave there.\n\nif its still unavailable, then Use @mcrequestbot to request for it. please make sure you follow the request format there or my owner will skip your request. Thank youuu 🥰')
+        k = await query.message.edit('The file you are looking for is not available on my Database or might not be released yet 💌\n\nFirst of all, Read the pinned message and follow the instructions and examples I gave there.\n\nif its still unavailable, then Use @Series_Support to request for it. please make sure you follow the request format there or my owner will skip your request. Thank youuu 🥰')
         await asyncio.sleep(20)
         await k.delete()
 
@@ -800,7 +800,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await cartoon(client, query.message)
     elif query.data == "normalglitch1":
         await normalglitch_1(client, query.message)
-    elif query.data == "normalglitch2":
+    elif query.data == "normalglitch2"  :
         await normalglitch_2(client, query.message)
     elif query.data == "normalglitch3":
         await normalglitch_3(client, query.message)
@@ -831,7 +831,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚", url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton("🔍 𝚂𝚎𝚊𝚛𝚌𝚑", switch_inline_query_current_chat=''),
-            InlineKeyboardButton("🍿 UᎮDΛTΞS 🍿", url="https://t.me/Lordshipmovies")
+            InlineKeyboardButton("🍿 UᎮDΛTΞS 🍿", url="https://t.me/MOVIEWAVETV")
             ],[
             InlineKeyboardButton("♻️ HΞLᎮ ♻️", callback_data="help"),
             InlineKeyboardButton("💫 ΛBOUT 💫", callback_data="about")
