@@ -218,7 +218,7 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="🔞 CLICK HERE FOR OUR ADULT CHANNEL", url='https://t.me/+0g3ZPk-Zw4UxOGI0')
+            InlineKeyboardButton(text="🔞 CLICK HERE FOR OUR ADULT CHANNEL", url='https://t.me/JUVENILETIDES_X')
         ]
     )
     
@@ -831,7 +831,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚", url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton("🔍 𝚂𝚎𝚊𝚛𝚌𝚑", switch_inline_query_current_chat=''),
-            InlineKeyboardButton("🍿 UᎮDΛTΞS 🍿", url="https://t.me/MOVIEWAVETV")
+            InlineKeyboardButton("🍿 UᎮDΛTΞS 🍿", url="https://t.me/JUVENILETIDES")
             ],[
             InlineKeyboardButton("♻️ HΞLᎮ ♻️", callback_data="help"),
             InlineKeyboardButton("💫 ΛBOUT 💫", callback_data="about")
@@ -1300,7 +1300,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="🔞 CLICK HERE FOR OUR ADULT CHANNEL", url='https://t.me/+0g3ZPk-Zw4UxOGI0')
+            InlineKeyboardButton(text="🔞 CLICK HERE FOR OUR ADULT CHANNEL", url='https://t.me/JUVENILETIDES_X')
         ]
     )
     
